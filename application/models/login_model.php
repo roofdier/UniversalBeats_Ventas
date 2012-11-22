@@ -10,7 +10,7 @@
 
 		public function is_user($usr,$pwd)
 		{
-			$qry = "SELECT id_usuario FROM usuarios WHERE usuario='$usr' AND password='$pwd'";
+			$qry = "SQL :D";
 			$rst = $this->db->query($qry);
 
 			if($rst->num_rows()>0)

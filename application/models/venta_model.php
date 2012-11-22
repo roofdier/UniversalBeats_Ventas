@@ -14,7 +14,7 @@
 			$key = random_string('alnum', 11);
 			$ssuser = $this->session->userdata('id_ubeater');
 
-			$query = "INSERT INTO ventas VALUES('". $key ."','2809ANDz210',".$cantidad.",".$tipo.",NOW())";
+			$query = "SQL";
 			
 			if($this->db->query($query))
 				return true;
