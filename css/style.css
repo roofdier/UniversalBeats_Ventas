@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'BevanRegular';/*
+    src: url('fonts/Bevan-webfont.eot');
+    src: url('fonts/Bevan-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Bevan-webfont.woff') format('woff'),*/
+    src: url('fonts/Squareworm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+}
+
+body
+{
+	background: url(../b/unibg.jpg) no-repeat top center;
+	background-size: cover;
+	font-family: 'BevanRegular',Helvetica, Arial;
+	color: #FFF;
+}
+
+body,html
+{
+	width: 100%;
+	font-size: 10px;
+}
+
+
+
+#cn
+{
+	background: transparent !important;
+	display: block;
+	margin:0 auto;
+	width: 80%;
+	position:relative;
+	margin-top:270px;
+	min-width: 1024px;
+}
+
+/**
+ * Login
+ *
+*/
+
+#fu_l
+{
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+}
+
+#fu_l form 
+{
+	display: block;
+	width: 100%;
+}
+
+#fu_l form input
+{
+	background: rgba(0,0,0,0.7);
+	color:#FFF;
+	display: block;
+	margin: 1em auto;
+	width: 100%;
+	padding: 0.3em;
+	outline: 0;
+	border:0;
+	font-size: 3em;
+}
+
+#fu_l form button
+{
+	background: rgba(0,0,0,0.8);
+	border:0;
+	outline: 0;
+	padding: 0.2em;
+	font-size: 2em;
+	color: #FFF;
+	width: 50%;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+}
+
+
+/**
+ *
+ * Ventas
+ *
+*/
+
+#uventa
+{
+	display: block;
+	margin:0 auto;
+	width: 40%;
+}
+
+.uventa-form
+{
+	width: 100%;
+}
+
+.special-ibox
+{
+	font-weight: bold;
+	background: rgba(0,0,0,0.5);
+	display: block;
+	margin: 0.5em 0;
+	width: 95%;
+	min-height: 30px;
+	font-size: 4em;
+	letter-spacing: 2px;
+}
+
+.special-sbox
+{
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+	width: 85%;
+	min-height: 30px;
+	font-size: 4em;
+	letter-spacing: 2px;
+}
+
+.special-sbox ul
+{
+
+	background: rgba(0,0,0,0.5);
+	list-style: none;
+	height: 50px;
+	width: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	overflow: hidden;
+}
+
+.special-sbox .over
+{
+	height: 100px;
+}
+
+.special-sbox ul li{
+	cursor: pointer;
+	padding-left: 0.2em;
+}
+
+.special-sbox ul li:hover{
+	background:rgba(56,56,56,0.8);
+}
+
+
+.special-select
+{
+	display: block;
+	min-height: 30px;
+	letter-spacing: 2px;
+}
+
+
+.special-selectbutton
+{
+	background: rgba(56,56,56,0.9);
+	cursor: pointer;
+	display: inline-block;
+	font-size: 2em;
+	height:50px;
+	line-height: 50px;
+	text-align: center;
+	vertical-align: top;
+	width: 10%;
+}
+
+.special-label
+{
+	letter-spacing: inherit;
+	background: rgba(0,0,0,0.5);
+	display: inline-block;
+	height: 100%;
+	padding-left: 0.2em;
+	min-height: 30px;
+	width: 38%;
+}
+
+.special-button
+{
+	background: rgba(0,0,0,0.8); 
+	border:0;
+	color: inherit;
+	cursor: pointer;
+	display: inline-block;
+	font-family: inherit;
+	font-size: 4em;
+	height: 50;
+	letter-spacing: inherit;
+	margin-left: 0.2em;
+	min-height: 30px;
+	outline: 0;
+	padding: 0.2em 0.2em;
+	width: 38%;	
+}
+
+.special-button:hover
+{
+	background:rgba(0,0,0,0.9);
+}
+
+.special-button:first-child
+{
+	margin-left: 0;
+}
+
+.special-input
+{
+	color: #FFF;
+	font-size: inherit;
+	font-family: inherit;
+	background: transparent;
+	border:0;
+	display: inline-block;
+	height: 100%;
+	outline:0;
+	margin-right: 0.3em;
+	text-align: right;
+	width: 53.4%;
+}
+
+::selection
+{
+	background: rgba(56,56,56,0.6);
+	color: #f58813;
+}
+
+
+.special-bbox
+{
+	display: block;
+	float: right;
+	margin: 0.5em auto;
+	width: 80%;
+}
+
+.tinySpecial
+{
+	clear: both;
+	float: right;
+	width: 50%
+}
+
+.tinySpecial .special-input
+{
+	width: 45.8%;
+}
+
+#logout
+{
+	cursor: pointer;
+	background: rgba(56,56,56,0.9);
+	font-size: 2em;
+	padding: 1em;
+	position: fixed;
+	top: 0;
+	right: 0;
+}
